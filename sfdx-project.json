@@ -8,5 +8,5 @@
   "name": "test apac2 backend",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "58.0"
+  "sourceApiVersion": "59.0"
 }
