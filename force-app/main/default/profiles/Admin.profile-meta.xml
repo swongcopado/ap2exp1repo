@@ -28,6 +28,21 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Story32__c.Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Story32__c.Description__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Story32__c.Price__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>US27Object__c.Amount__c</field>
         <readable>false</readable>
@@ -45,6 +60,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Story31__c-Story31 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Story32__c-Story32 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>US27Object__c-US27Object Layout</layout>
@@ -80,6 +98,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>Story31__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Story32__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
